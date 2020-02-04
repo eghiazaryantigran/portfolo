@@ -1,0 +1,425 @@
+	*{
+		margin: 0 ;
+		padding: 0;
+	}
+
+	 .conteiner{
+		max-width: 1600px;
+		margin: 0 auto;
+	} 
+
+	.main-nav {
+		position: fixed;
+		width: 100%;
+   		 z-index: 1;
+		display: -webkit-flex;
+		display: flex;
+		justify-content: center;
+		background: rgba(247, 247, 247, 0.788);
+	
+	}
+	.main-nav a {
+		margin: 10px;
+		border-radius: 5px;
+		color: #5C5B5B;
+		display: block;
+		padding: 15px;
+		text-decoration: none;
+	}
+	.main-nav .logo {
+		border: 2px solid #2F2E2E;
+	}
+	.main-nav a:hover{
+		border: 2px solid #2F2E2E;
+	}
+	ul li{
+		list-style: none;
+	}
+
+	.first_div{
+		background-image: url(image/weddings-masthead.jpg);
+		height:650px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+	.blur{
+		background:#adcbd078;
+		height:650px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		border: 0.5px solid #ff000000;
+	}
+	.logo1{
+	background-image: url(image/Pink-Flower-PNG-715x715.png);
+	width: 226px;
+	height: 226px;
+	background-size: 100% 100%;
+		margin:0 auto;
+		margin-top:100px;
+		
+	}
+	.blur h1{
+		font-family: 'Kaushan Script', cursive;
+		text-align: center;
+		color: #0078e9bf;
+		font-size: 70px;
+		letter-spacing: 5px;
+		margin-top: -70px;
+	}
+	#second_div{
+		height:700px;
+		border:0.5px solid #ff000000;
+
+
+	}
+
+	#second_div h2{
+		font-family: 'Kaushan Script', cursive;
+		color: rgb(0, 0, 0);
+		text-align: center;
+		letter-spacing: 2px;
+		margin-top: 50px;
+	}
+	.liner {
+		width: 25px;
+		height: 3px;
+		background-color: rgb(0, 0, 0);
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.about{
+		background-image: url(image/55.jpg);
+		background-size: 100% 100%;
+		float: left;
+		width: 48%;
+		height: 500px;
+		margin-top: 30px;
+		box-shadow: 30px 20px 50px rgb(0, 153, 255);
+	}
+	.about_text{
+		background-size: cover;
+		float: right;
+		width: 51%;
+		height: 500px;
+		margin-top: 30px;
+		margin-right: 10px;
+	}
+	.about_text h5{
+		text-align: center;
+		font-size: 20px;
+		margin-top:120px;
+		width: 80%;
+		margin-left: 90px;
+
+	}
+	#thirds_pic{
+		height:650px;
+
+	}
+	#thirds_pic h3{
+		font-size: 40px;
+		text-align: center;
+		margin-top: 30px;
+	}
+	#thirds_pic .liner {
+		width: 25px;
+		height: 3px;
+		background-color: rgb(0, 0, 0);
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	.container1 {
+		display: flex;
+		justify-content:space-between;
+		width: 90%;
+		height:500px;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+	
+	.pic1{
+		flex-basis: 30%;
+		height: 500px;
+		background: url(https://www.w3schools.com/howto/img_avatar.png);
+		background-size: 100% 100%;
+	}
+	.pic1:hover .hov h2{
+		background: #00b7fffd;
+		width: 100%;
+		height: 400px;
+		text-align: center;
+		color: antiquewhite;
+		opacity:1;
+		transition: 1.2s;
+	}
+	.hov h2{
+		opacity:0;
+		font-size: 80px;
+		
+	}
+	.pic2{
+		flex-basis: 30%;
+		height: 500px;
+		background: url(https://www.w3schools.com/howto/img_avatar.png);
+		background-size: 100% 100%;
+	}
+	.pic2:hover .hov h2{
+		background: #00b7fffd;
+		width: 100%;
+		height: 400px;
+		text-align: center;
+		color: antiquewhite;
+		opacity:1;
+		transition: 1.2s;
+	}
+	.hov h2{
+		opacity:0;
+		padding-top:100px;
+	}
+	
+	.pic3{
+		flex-basis: 30%;
+		height: 500px;
+		background: url(https://www.w3schools.com/howto/img_avatar.png);
+		background-size: 100% 100%;
+	}
+	.pic3:hover .hov1 h2{
+		background: #00b7fffd;
+		width: 100%;
+		height: 350px;
+		opacity:1;
+		transition: 1.2s;
+	}
+	.hov1 h2{
+		opacity:0;
+		padding-top: 150px;
+		text-align: center;
+		color: antiquewhite;
+		font-size: 80px;
+	}
+
+	#forth_pic{
+		height:1000px;
+	}
+
+	#forth_pic.liner {
+		width: 25px;
+		height: 3px;
+		background-color: rgb(0, 0, 0);
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	#forth_pic h3{
+		font-size: 40px;
+		text-align: center;
+	}
+	.container2 {
+		display: flex;
+		justify-content:space-around;
+		/* border: 1px solid red; */
+		height:250px;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+	.container3 {
+		display: flex;
+		justify-content:space-around;
+		height:250px;
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+	.container4 {
+		display: flex;
+		justify-content:space-around;
+		height:250px;
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+	.container2 img:hover,.container3 img:hover,.container4 img:hover{
+		/* filter:drop-shadow(8px 8px 10px rgb(128, 128, 128)); */
+		/* filter:opacity(30%); */
+		transition: 1s;
+		filter:saturate(2);
+	}
+	.fifth_pic{
+		background-image: url(image/night-wedding-reception-1024x683.jpg);
+		height: 800px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.fifth_pic h4{
+	color: #fffffffd;
+	font-size: 60px;
+	padding: 350px 130px;
+	width: 60%;
+	}
+
+
+#sixth_div{
+	height: 752px;
+/* 	border:1px solid red; */
+}
+.contact{
+	width: 49.8%;
+	height:752px;
+	/* border: 1px solid red; */
+	float: left;
+}
+.p_text{
+	width: 100%;
+	height: 300px;
+	/* border: 1px solid red; */
+	margin-top: 100px;
+}
+
+.p1{
+	margin-left: 30px;
+	font-size: 30px;
+	}
+	.p2{
+	  margin-left: 30px;
+	  margin-top:15px;
+	  font-size: 30px;
+	}
+	.p3{
+	  margin-left: 30px;
+	  margin-top:15px;
+	  font-size: 30px;
+	}
+	.p4{
+	  margin-left: 30px;
+	  margin-top:15px;
+	  font-size: 30px;
+	}
+	.p5{
+	  margin-left: 30px;
+	  margin-top: 15px;
+	  font-size: 30px;
+	}
+
+
+
+
+
+.map{
+	 height:350px;
+	/*  border: 1px solid black; */
+	 background-size: 100% 100%;
+}
+
+
+.contact_pic{
+	background-image: url(image/contact_pic.jpg);
+	height: 752px;
+	width: 50%;
+	float: right;
+	background-size: 100% 100%;
+}
+
+
+	footer{
+	background: #2f2e2e;
+	height: 225px;
+	border: 1px solid rgba(255, 255, 255, 0);
+	}
+.blur_end{
+	background: #adcbd078;
+	height: 752px;
+	width: 100%;
+}
+	.icon-row{
+		width: 40%;
+		height: 70px;
+		margin: 40px auto;
+		display: flex;
+		justify-content: space-between;
+		margin-top:80px;
+		}
+		.icon1{
+			width:14%;
+			height: 60px;
+			background-color: #5F96FE;
+			font-size: 40px;
+			text-align: center;
+			padding-top: 10px;
+			color:white;
+			border-radius: 5px;
+			}
+			
+			.icon2{
+				width:14%;
+			height: 60px;
+			background-color: #5F96FE;
+			font-size: 40px;
+			text-align: center;
+			padding-top: 10px;
+			color:white;
+			border-radius: 5px;
+			}
+			
+			.icon3{
+				width:14%;
+			height: 60px;
+			background-color: #5F96FE;
+			font-size: 40px;
+			text-align: center;
+			padding-top: 10px;
+			color:white;
+			border-radius: 5px;
+			}
+			.icon4{
+				width:14%;
+				height: 60px;
+				background-color: #5F96FE;
+				font-size: 40px;
+				text-align: center;
+				padding-top: 10px;
+				color:white;
+				border-radius: 5px;
+				}
+				
+				.icon5{
+					width:14%;
+				height: 60px;
+				background-color: #5F96FE;
+				font-size: 40px;
+				text-align: center;
+				padding-top: 10px;
+				color:white;
+				border-radius: 5px;
+				}
+				
+				.icon6{
+					width:14%;
+				height: 60px;
+				background-color: #5F96FE;
+				font-size: 40px;
+				text-align: center;
+				padding-top: 10px;
+				color:white;
+				border-radius: 5px;
+				}
+				.icon-row a{
+					color:#fff;
+				}
+				footer h5{
+					text-align: center;
+					color:#D3D3D3;
+					font-size: 10px;
+					}
+					footer h2{
+						text-align: center;
+						color:#D3D3D3;
+						font-size: 40px;
+						}
+					.mug3 h5 span{
+						color:#206bff;
+					}
