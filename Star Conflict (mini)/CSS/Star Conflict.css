@@ -1,0 +1,12 @@
+body{
+    background: url(../img/1.jpg);
+    background-size:cover;
+}
+
+#canvas{
+    background: url(../img/1.jpg);
+    display: block;
+    margin: 0 auto;
+}
+
+
